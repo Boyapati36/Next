@@ -45,3 +45,18 @@ When we run `next dev` the next time, Next.js will start looking for any `.ts` o
 Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
 
 A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
+
+
+## how to run
+
+use the following commands to deploy the applications as developemt instance.
+
+```
+npm install
+```
+
+after successfully executed the above command run the following to run application in development mode.
+
+```
+npm run dev
+```
